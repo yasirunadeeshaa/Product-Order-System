@@ -13,7 +13,29 @@ public class InventoryDTO {
     private int productId;
     private int quantity;
 
-    //public int getQuantity() {
-    //    return quantity;
-    //}
+
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public int getItemId() {
+        return itemId;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public void setItemId(int itemId) {
+        this.itemId = itemId;
+    }
+
+    public int getProductId() {
+        return productId;
+    }
+
+    public void setProductId(int productId) {
+        this.productId = productId;
+    }
 }

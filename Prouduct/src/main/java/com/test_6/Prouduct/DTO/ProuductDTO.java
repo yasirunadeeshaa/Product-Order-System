@@ -14,4 +14,12 @@ public class ProuductDTO {
     private String productName;
     private String description;
     private int forSale;
+
+    public int getForSale() {
+        return forSale;
+    }
+
+    public void setForSale(int forSale) {
+        this.forSale = forSale;
+    }
 }
